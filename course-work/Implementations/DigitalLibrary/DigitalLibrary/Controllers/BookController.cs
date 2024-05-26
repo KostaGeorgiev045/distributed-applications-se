@@ -41,7 +41,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Get a book by ID
+        /// Get a book by ID.
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -62,7 +62,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Get a book by Title
+        /// Get a book by Title.
         /// </summary>
         /// <param name="title"></param>
         /// <returns></returns>
@@ -83,7 +83,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Create a new book
+        /// Create a new book.
         /// </summary>
         /// <param name="bookDTO"></param>
         /// <returns></returns>
@@ -99,7 +99,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Update an existing book
+        /// Update an existing book.
         /// </summary>
         /// <param name="id"></param>
         /// <param name="bookUpdateDTO"></param>
@@ -122,7 +122,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Delete an existing book
+        /// Delete an existing book.
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>

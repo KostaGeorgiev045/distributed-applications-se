@@ -24,7 +24,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Get a paginated list of books
+        /// Get a paginated list of books.
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -41,7 +41,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Get a review by ID
+        /// Get a review by ID.
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -62,7 +62,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Create a new review by userId and bookId
+        /// Create a new review by userId and bookId.
         /// </summary>
         /// <param name="userId"></param>
         /// <param name="bookId"></param>
@@ -91,7 +91,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Update an existing review
+        /// Update an existing review.
         /// </summary>
         /// <param name="id"></param>
         /// <param name="updateDTO"></param>
@@ -114,7 +114,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Delete an existing review
+        /// Delete an existing review.
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>

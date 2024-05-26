@@ -23,7 +23,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Get a paginated list of users
+        /// Get a paginated list of users.
         /// </summary>
         /// <param name="query"></param>
         /// <returns></returns>
@@ -41,7 +41,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Get a user by ID
+        /// Get a user by ID.
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -62,7 +62,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Get a user by Username
+        /// Get a user by Username.
         /// </summary>
         /// <param name="username"></param>
         /// <returns></returns>
@@ -83,7 +83,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Create a new user
+        /// Create a new user.
         /// </summary>
         /// <param name="userDTO"></param>
         /// <returns></returns>
@@ -101,7 +101,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Update an existing user
+        /// Update an existing user.
         /// </summary>
         /// <param name="id"></param>
         /// <param name="userUpdateDTO"></param>
@@ -124,7 +124,7 @@ namespace DigitalLibrary.Controllers
         }
 
         /// <summary>
-        /// Delete an existing user
+        /// Delete an existing user.
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
