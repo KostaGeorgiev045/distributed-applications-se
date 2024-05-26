@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalLibrary", "DigitalLibrary\DigitalLibrary.csproj", "{85F6AE62-8925-46B5-9A02-FF4D09F3D3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalLibraryMVC", "DigitalLibraryMVC\DigitalLibraryMVC.csproj", "{EBADA1B8-DDCE-4DD5-A9E5-71919BD36DA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85F6AE62-8925-46B5-9A02-FF4D09F3D3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F6AE62-8925-46B5-9A02-FF4D09F3D3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F6AE62-8925-46B5-9A02-FF4D09F3D3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F6AE62-8925-46B5-9A02-FF4D09F3D3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBADA1B8-DDCE-4DD5-A9E5-71919BD36DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBADA1B8-DDCE-4DD5-A9E5-71919BD36DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBADA1B8-DDCE-4DD5-A9E5-71919BD36DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBADA1B8-DDCE-4DD5-A9E5-71919BD36DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB731E7C-5BEB-4A31-9C0F-E6589DCB1B61}
+	EndGlobalSection
+EndGlobal
