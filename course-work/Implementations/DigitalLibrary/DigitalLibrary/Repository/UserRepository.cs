@@ -38,6 +38,20 @@ namespace DigitalLibrary.Repository
             return userModel;
         }
 
+        public async Task<User?> DeleteByUsernameAsync(string username)
+        {
+            var userModel = await _context.Users.FirstOrDefaultAsync(i => i.Username == username);
+
+            if(userModel == null)
+            {
+                return null;
+            }
+
+            _context.Remove(userModel);
+            await _context.SaveChangesAsync();
+            return userModel;
+        }
+
         public async Task<List<User>> GetAllAsync(QueryObject query)
         {
             var users = _context.Users.Include(c => c.Reviews).AsQueryable();

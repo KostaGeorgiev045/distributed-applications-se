@@ -12,6 +12,7 @@ namespace DigitalLibrary.Interfaces
         Task<Book> CreateAsync(Book bookModel);
         Task<Book?> UpdateAsync(int id, UpdateBookRequestDTO bookModel);
         Task<Book?> DeleteAsync(int id);
+        Task<Book?> DeleteByTitleAsync(string title);
         Task<bool> BookExists(int id);
     }
 }

@@ -23,6 +23,6 @@ namespace DigitalLibraryMVC.Models
         public decimal Rating { get; set; }
 
         // Navigation property for the related reviews
-        public List<Review> Reviews { get; set; } = new List<Review>();
+        //public List<Review> Reviews { get; set; } = new List<Review>();
     }
 }

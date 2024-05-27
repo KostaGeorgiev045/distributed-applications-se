@@ -82,5 +82,19 @@ namespace DigitalLibrary.Repository
         {
             return await _context.Books.Include(c => c.Reviews).FirstOrDefaultAsync(i => i.Title == title);
         }
+
+        public async Task<Book?> DeleteByTitleAsync(string title)
+        {
+            var bookModel = await _context.Books.FirstOrDefaultAsync(x => x.Title == title);
+
+            if (bookModel == null)
+            {
+                return null;
+            }
+
+            _context.Books.Remove(bookModel);
+            await _context.SaveChangesAsync();
+            return bookModel;
+        }
     }
 }

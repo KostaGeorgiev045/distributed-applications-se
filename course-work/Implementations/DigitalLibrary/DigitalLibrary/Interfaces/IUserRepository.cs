@@ -12,6 +12,7 @@ namespace DigitalLibrary.Interfaces
         Task<User> CreateAsync(User userModel);
         Task<User?> UpdateAsync(int id, UpdateUserRequestDTO userModel);
         Task<User?> DeleteAsync(int id);
+        Task<User?> DeleteByUsernameAsync(string username);
         Task<bool> UserExists(int id);
     }
 }
